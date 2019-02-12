@@ -1,9 +1,8 @@
 -- mesecons_switch
-local has_protector_mod = minetest.get_modpath("protector")
 
 mesecon.register_node("mesecons_protected_switch:mesecon_switch", {
 	paramtype2="facedir",
-	description="Switch",
+	description="Protected Switch",
 	is_ground_content = false,
 	sounds = default.node_sound_stone_defaults(),
 	on_rightclick = function (pos, node, clicker)
