@@ -32,7 +32,7 @@ mesecon.register_node("mesecons_protected_switch:mesecon_switch", {
 })
 
 minetest.register_craft({
-	output = "mesecons_protected_switch:mesecon_switch",
+	output = "mesecons_protected_switch:mesecon_switch_off",
 	recipe = {
 		{"mesecons_switch:mesecon_switch_off", "default:steel_ingot"}
 	}
